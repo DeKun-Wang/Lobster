@@ -1,0 +1,15 @@
+COHPstartEnergy  -11
+COHPendEnergy	  5
+usebasisset pbeVaspFit2015
+basisfunctions Ni 3d 4s 4p
+basisfunctions Mn 3d 4s 4p
+basisfunctions Ga 4s 4p
+basisfunctions In 5s 5p
+
+gaussianSmearingWidth 0.05
+COHPSteps 1000
+skipDOS
+skipCOOP
+
+cohpGenerator from 2.5 to 2.6 type Ni type Ni
+cohpGenerator from 2.5 to 2.6 type Mn type Ni
