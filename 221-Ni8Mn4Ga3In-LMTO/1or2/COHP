@@ -1,0 +1,210 @@
+NUMBER OF COHPs= 6
+       If ALL is .true., all the orbitals will be included else
+       the hybrid orbital defined with COEF. will be used. The 
+       normalization is done automatically.
+       Euler angles are used to change the local coordinate system.
+       They are given in unit of PI (PI -> 1.0). If EULANG is false
+       the new system is defined with two axes.
+   COHP=  1
+     Bond between In   and Ni   :   4.76645 a.u.  ->   2.52230 Angstr.
+       SOURCE: ATOM=In   IBAS1=  1
+       TARGET: ATOM=Ni   IBAS2=  9 TRANSLATIONS=  0  0  0
+                         VECTOR=    0.25000   0.25000   0.25000
+
+       TITLE=In-1/Ni-9-tr(0,0,0) :  2.522 Ang.       
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+   COHP=  2
+     Bond between In   and Mn2  :   5.50382 a.u.  ->   2.91249 Angstr.
+       SOURCE: ATOM=In   IBAS1=  1
+       TARGET: ATOM=Mn2  IBAS2=  6 TRANSLATIONS= -1  0  0
+                         VECTOR=   -0.50000   0.00000   0.00000
+
+       TITLE=In-1/Mn2-6-tr(-1,0,0) :  2.912 Ang.     
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+   COHP= 3
+     Bond between In   and Ga   :   7.78359 a.u.  ->   4.11890 Angstr.
+       SOURCE: ATOM=In   IBAS1=  1
+       TARGET: ATOM=Ga   IBAS2=  2 TRANSLATIONS= -1 -1  0
+                         VECTOR=   -0.50000  -0.50000   0.00000
+
+       TITLE=In-1/Ga-2-tr(-1,-1,0) :  4.119 Ang.     
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+   COHP= 4
+     Bond between Mn2  and Ni   :   4.76645 a.u.  ->   2.52230 Angstr.
+       SOURCE: ATOM=Mn2  IBAS1=  6
+       TARGET: ATOM=Ni   IBAS2=  9 TRANSLATIONS=  0  0  0
+                         VECTOR=   -0.25000   0.25000   0.25000
+
+       TITLE=Mn2-6/Ni-9-tr(0,0,0) :  2.522 Ang.      
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+   COHP= 5
+     Bond between Mn2  and Mn2  :   7.78359 a.u.  ->   4.11890 Angstr.
+       SOURCE: ATOM=Mn2  IBAS1=  6
+       TARGET: ATOM=Mn2  IBAS2=  7 TRANSLATIONS=  0 -1  0
+                         VECTOR=   -0.50000  -0.50000   0.00000
+
+       TITLE=Mn2-6/Mn2-7-tr(0,-1,0) :  4.119 Ang.    
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+   COHP= 6
+     Bond between Ni   and Ni   :   5.50382 a.u.  ->   2.91249 Angstr.
+       SOURCE: ATOM=Ni   IBAS1=  9
+       TARGET: ATOM=Ni   IBAS2= 11 TRANSLATIONS=  0  0  0
+                         VECTOR=    0.00000  -0.50000   0.00000
+
+       TITLE=Ni-9/Ni-11-tr(0,0,0) :  2.912 Ang.      
+       SOURCE: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+       TARGET: 
+         ALL= .true.         EULANG= .true.
+         EULER ANGLES= 0.000000 0.000000 0.000000
+         ZAXIS=        0.000000 0.000000 1.000000
+         YAXIS=        0.000000 1.000000 0.000000
+         ORBITAL=
+                  +  1 (           s) * COEF.= 1.000000
+                  +  2 (          py) * COEF.= 1.000000
+                  +  3 (          pz) * COEF.= 1.000000
+                  +  4 (          px) * COEF.= 1.000000
+                  +  5 (         dxy) * COEF.= 1.000000
+                  +  6 (         dyz) * COEF.= 1.000000
+                  +  7 (     d3z^2-1) * COEF.= 1.000000
+                  +  8 (         dxz) * COEF.= 1.000000
+                  +  9 (    dx^2-y^2) * COEF.= 1.000000
+END

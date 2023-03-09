@@ -1,0 +1,129 @@
+HEADER    Mn4InGa3Ni8, cubic primitive 
+VERS      LMASA-47 
+IO        VERBOS=40 HELP=F WKP=F IACTIV=F ERRTOL=2 OUTPUT=LM ERR=ERR 
+SYMGRP    NGEN=3 GENGRP=I R4X R3D 
+          SPCGRP=Pm-3m USESYM=F 
+STRUC     ALAT=11.00765906 
+          PLAT=1 0 0 
+               0 1 0 
+               0 0 1 FIXLAT=T 
+DIM       NBAS=16 NCLASS=5 NL=4 LDIM=124 IDIM=27 NSYMOP=48 NKP=84 
+OPTIONS   NSPIN=1 REL=T CCOR=T NONLOC=F NRXC=1 NRMIX=2 CORDRD=F 
+          NITATOM=30 CHARGE=F FATBAND=F AFM=F SEWALD=F FS=F 
+          CARTESIAN=T WRIBAS=F Q=---- COHP=T IREP=F RMES=F BEGBND=0 
+          ENDBND=0 
+CLASS     ATOM=In  Z=49 R=2.83154421 LMX=3 CONF=5 5 5 4 IDXDN=1 1 2 2 
+          ATOM=Ga  Z=31 R=2.83154421 LMX=2 CONF=4 4 4 4 IDXDN=1 1 2 
+          ATOM=Mn1 Z=25 R=2.83154421 LMX=2 CONF=4 4 3 4 IDXDN=1 1 1 
+          ATOM=Mn2 Z=25 R=2.83154421 LMX=2 CONF=4 4 3 4 IDXDN=1 1 1 
+          ATOM=Ni  Z=28 R=2.57630444 LMX=2 CONF=4 4 3 4 IDXDN=1 1 1 
+SITE      ATOM=In  POS=0.00 0.00 0.00 
+          ATOM=Ga  POS=0.50 0.50 0.00 
+          ATOM=Ga  POS=0.50 0.00 0.50 
+          ATOM=Ga  POS=0.00 0.50 0.50 
+          ATOM=Mn1 POS=0.50 0.50 0.50 
+          ATOM=Mn2 POS=0.50 0.00 0.00 
+          ATOM=Mn2 POS=0.00 0.50 0.00 
+          ATOM=Mn2 POS=0.00 0.00 0.50 
+          ATOM=Ni  POS=0.25 0.25 0.25 
+          ATOM=Ni  POS=0.25 0.25 -.25 
+          ATOM=Ni  POS=0.25 -.25 0.25 
+          ATOM=Ni  POS=0.25 -.25 -.25 
+          ATOM=Ni  POS=-.25 0.25 0.25 
+          ATOM=Ni  POS=-.25 0.25 -.25 
+          ATOM=Ni  POS=-.25 -.25 0.25 
+          ATOM=Ni  POS=-.25 -.25 -.25 
+SCALE     SCLWSR=T OMMAX1=.16 .18 .20 OMMAX2=.40 .45 .50 
+STR       KAPPA2=0 RMAXS=3.2 NDIMIN=350 NOCALC=F IALPHA=0 
+          DOWATS=F DELTR=.1 LMAXW=8 
+          ATOM=In  SIGMA=.7 .7 .7 .7 
+          ATOM=Ga  SIGMA=.7 .7 .7 
+          ATOM=Mn1 SIGMA=.7 .7 .7 
+          ATOM=Mn2 SIGMA=.7 .7 .7 
+          ATOM=Ni  SIGMA=.7 .7 .7 
+START     NIT=100 BROY=T WC=-1 NMIX=1 BETA=.5 
+          FREE=F CNVG=.00001 CNVGET=.00001 BEGMOM=T CNTROL=T 
+          EFERMI=-.07090222 VMTZ=-.7759422 
+          ATOM=In  P=5.78329315 5.55868812 5.14042212 4.13704186 
+                   Q=0.97433133 -.02601943 0.01542299 
+                     1.31870245 -.01412352 0.01968119 
+                     0.37834945 0.00000000 0.00359335 
+                     0.13407867 -.00000000 0.00064064 
+              enu   =-0.59929224 -0.33758801 -0.24268746 -0.23156765 
+              c     =-0.66512730  0.30128724 -9.47535320  2.91207126 
+              sqrdel= 0.39020322 -0.39963307 -2.13134367  0.44583396 
+              p     = 0.07835568  0.03716007  0.61408969  0.01401703 
+              gamma = 0.43707350  0.12559395 -0.48913926  0.05029325 
+          ATOM=Ga  P=4.80350895 4.59200185 4.18791275 
+                   Q=1.13480593 -.02530695 0.01911784 
+                     1.56191499 -.01157030 0.02313249 
+                     0.36323331 -.00000000 0.00351655 
+              enu   =-.62844177 -.34208860 -.25260450 
+              c     =-.72044231 0.16241127 2.68468244 
+              sqrdel=-.35604516 0.36344338 -.65081677 
+              p     =0.14149736 0.06416714 0.23543488 
+              gamma =0.42262037 0.11695853 0.13012767 
+          ATOM=Mn1 P=4.65109003 4.39322280 3.76967733 
+                   Q=0.62233554 -.01446136 0.01498158 
+                     0.80351747 -.01269073 0.01704023 
+                     5.75019487 0.03125448 0.06814996 
+              enu   =-.45922784 -.32817481 -.19082504 
+              c     =-.28698951 0.62375446 -.10877042 
+              sqrdel=-.41527932 0.41906348 0.13146108 
+              p     =0.05037512 0.02927152 1.78131609 
+              gamma =0.44909589 0.13175239 0.00180691 
+          ATOM=Mn2 P=4.65841647 4.40027282 3.77267736 
+                   Q=0.62947956 -.01525624 0.01544382 
+                     0.81713338 -.01060513 0.01718689 
+                     5.78015244 0.03092823 0.06821770 
+              enu   =-.46063755 -.32853637 -.19209984 
+              c     =-.29920864 0.61096851 -.11022522 
+              sqrdel=-.41567664 0.41907575 0.13245463 
+              p     =0.05054051 0.02939849 1.76667247 
+              gamma =0.44890009 0.13162673 0.00154853 
+          ATOM=Ni  P=4.68079763 4.41105942 3.85768796 
+                   Q=0.59659658 -.01724148 0.02237169 
+                     0.66152644 -.00034526 0.01782030 
+                     8.63666839 0.03178600 0.05732110 
+              enu   =-.47476395 -.33029728 -.21621495 
+              c     =-.32863867 0.74597355 -.18787059 
+              sqrdel=-.42634056 0.39145136 0.09889174 
+              p     =0.03981431 0.02191961 1.73344761 
+              gamma =0.40567753 0.09772255 -.00197634 
+CHARGE    LMTODAT=T ELF=F ADDCOR=F SPINDENS=F CHARWIN=F EMIN=-2 EMAX=2 
+          UNOCCUP=F 
+PLOT      ORIGIN=0 0 0 
+              R1=1 0 0 NDELR1=12 
+              R2=0 1 0 NDELR2=12 
+              R3=0 0 1 NDELR3=12 
+          FORMAT=1 
+BZ        NKABC=12 12 12 TETRA=T METAL=T TOL=.000001 
+          N=0 W=.005 RANGE=5 NPTS=1001 
+EWALD     NKDMX=250 AS=2 TOL=.000001 
+RHOFIT    FIT=F KAPPA2=0 RMAXS=3.5 OUTPUT=5 
+          ATOM=In  LMXRHO=3 SIGMA=.7 .7 .7 .7 
+          ATOM=Ga  LMXRHO=2 SIGMA=.7 .7 .7 
+          ATOM=Mn1 LMXRHO=2 SIGMA=.7 .7 .7 
+          ATOM=Mn2 LMXRHO=2 SIGMA=.7 .7 .7 
+          ATOM=Ni  LMXRHO=2 SIGMA=.7 .7 .7 
+SCELL     PLAT=1 0 0 
+               0 1 0 
+               0 0 1 EQUIV=T 
+HARTREE   BEGATOM=T LT1=2 LT2=2 LT3=2 
+DOS       NOPTS=801 EMIN=-.9 EMAX=2.6 
+SYML      NQ=30 Q1=0.0 0.0 0.0 LAB1=G 
+                Q2=0.5 0.5 0.0 LAB2=M 
+          NQ=20 Q1=0.5 0.5 0.0 LAB1=M 
+                Q2=0.5 0.0 0.0 LAB2=X 
+          NQ=20 Q1=0.5 0.0 0.0 LAB1=X 
+                Q2=0.0 0.0 0.0 LAB2=G 
+          NQ=35 Q1=0.0 0.0 0.0 LAB1=G 
+                Q2=0.5 0.5 0.5 LAB2=R 
+FINDES    RMINES=.9 RMAXES=4 NRXYZ=72 72 72 
+COHP      ONLY_H=F f(N(E))=F WGAUSS=5 
+          CLASS1=1 CLASS2=2 DIMIN=.5 DIMAX=8.24 
+          CLASS1=4 CLASS2=4 DIMIN=.5 DIMAX=8.24 
+          CLASS1=5 CLASS2=5 DIMIN=.5 DIMAX=6.00 
+          CLASS1=1 CLASS2=5 DIMIN=.5 DIMAX=5.10 
+          CLASS1=1 CLASS2=4 DIMIN=.5 DIMAX=6.00 
+          CLASS1=4 CLASS2=5 DIMIN=.5 DIMAX=5.10 

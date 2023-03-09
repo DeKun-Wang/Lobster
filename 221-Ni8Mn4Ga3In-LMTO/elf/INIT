@@ -1,0 +1,6 @@
+          SPCGRP=221 IORIGIN=1 ATUNITS=F A=5.825 
+          ATOM=In   Z=49   X=0 0 0 
+          ATOM=Ga   Z=31   X=0.0 0.5 0.5 
+          ATOM=Mn1  Z=25   X=.5 .5 .5 
+          ATOM=Mn2  Z=25   X=0.5 0.0 0.0 
+          ATOM=Ni   Z=28   X=.25 .25 .25 
